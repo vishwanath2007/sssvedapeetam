@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="" srcset=""></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="timeing.html">TIMEING</a></li>
+                    <li><a href="images.html">IMAGES</a></li>
+                    <li><a href="contact us.html">CONTACT</a></li>
+                    <li> <a href="facilities.html">PROGRAMS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our gallary</h1>   
+</section>
+
+
+<!--blog page contant-->
+
+<input type="radio" name="photos" id="photo1" checked>
+<input type="radio" name="photos" id="photo2" checked>
+<input type="radio" name="photos" id="photo3" checked>
+<input type="radio" name="photos" id="photo4" checked>
+
+<div class="containe">
+    <h1>OUR photos</h1>
+    <div class="top-content">
+        <h3>photo gallary</h3>
+        <label for="photo1">All photos</label>
+        <label for="photo2">child</label>
+        <label for="photo3">family</label>
+        <label for="photo4">bla bla</label>
+
+    </div>
+
+    <div class="photo-gallary">
+        <div class="pic places">
+            <img src="images/gp.png">
+        </div>
+        <div class="pic family">
+            <img src="images/vishu.jpg">
+        </div>
+        <div class="pic child">
+            <img src="images/shiva kumar.jpg">
+        </div>
+        <div class="pic places">
+            <img src="images/ngp.png">
+        </div>
+        <div class="pic family">
+            <img src="images/logo.png">
+        </div>
+        <div class="pic child">
+            <img src="images/gp.png">
+        </div>
+        <div class="pic child">
+            <img src="images/shiva kumar.jpg">
+        </div>
+        <div class="pic family">
+            <img src="images/vishu.jpg">
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<!----footer--->
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>tytsdgsidgu kgdyfvugefuigdi giefidsf igiygegf ytsfdh
+        hifgeofhuegfdgfiyvdfudfkb
+    </p>
+    <div class="icons">
+
+        <a href="https://www.facebook.com/vishwanathgabbita">
+        <i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@msgkksharma">
+            <i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/sri_sivasankari_vedapeetam__">
+        <i class="fa-brands fa-instagram"></i></a>
+        <a href="images.html">
+            <i class="fa-solid fa-image"></i>
+        </a>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by Easy tutorials</p>
+</section>
+
+
+
+<script>
+    var navlinks=document.getElementById("navLinks");
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+    function hideMenu(){
+        navlinks.style.right="-200px";
+    }
+</script>
+
+
+
+</body>
+</html>

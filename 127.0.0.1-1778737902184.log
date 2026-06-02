@@ -1,0 +1,8 @@
+document.designMode="on"
+'on'
+document.designMode="on"
+'on'
+
+'on'
+document.designMode="off"
+'off'
